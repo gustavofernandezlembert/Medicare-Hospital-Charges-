@@ -1,4 +1,3 @@
-# Medicare-Hospital-Charges-
 
 # Medicare Hospital Charges for Kidney and Urinary Tract Infections for patients with major complication or comorbidity  
 # Association with Hospital Metropolitan Status

@@ -1,26 +1,21 @@
+# Medicare Hospital Charges Analysis for Kidney and Urinary Tract Infections
+*By Gustavo Fernandez, MS*
 
-# Medicare Hospital Charges for Kidney and Urinary Tract Infections for patients with major complication or comorbidity  
-# Association with Hospital Metropolitan Status
+## Abstract
+**Study Objective:**  
+To determine the association between hospital metropolitan status and Medicare charges for Kidney and Urinary Tract Infections (DRG-689) among patients with major complications or comorbidities in New York.
 
-## Gustavo Fernandez, MS
+**Data and Methods:**  
+We compared mean covered charges for DRG-689 between Metropolitan and Non-Metropolitan hospitals in New York that received Medicare Inpatient Prospective Payment System (IPPS) payments in 2018. Data were extracted from the Inpatient Charge Data FY 2018 and linked with the Rural-Urban Commuting Area (RUCA) dataset from ers.usda.gov.
 
-### Abstract
+**Statistical Analysis:**  
+We employed Welch’s - Satterthwaite t-test to assess differences in mean charges between metropolitan and non-metropolitan hospitals.
 
-#### Study objective: 
-To determine the association of New York hospital metropolitan status with the mean charges for Medicare diagnosis (DRG-689) Kidney and Urinary Tract Infections for patients with major complication or comorbidity.
+## Results
+- **Hospitals:** A total of 102 hospitals in New York reported mean covered charges for DRG-689. Of these, 86.27% were in metropolitan areas and 13.73% in non-metropolitan areas.
+- **Mean Charges:** Metropolitan hospitals had mean covered charges of $41,299 (95% CI: $36,815 - $45,783), whereas non-metropolitan hospitals had $19,754 (95% CI: $13,029 - $26,478). This reflects a statistically significant difference of $21,545 (95% CI: $13,683 - $29,407, p < 0.0001).
 
-#### Data and Method: 
-Compared the mean covered charges related to Kidney and Urinary Tract Infections for patients with major complication or comorbidity (DRG-689) between Metropolitan and Non-Metropolitan New York hospitals that received Medicare Inpatient Prospective Payment System (IPPS) payments in 2018.
+## Conclusions
+Metropolitan status significantly influences hospital charges for DRG-689, with metropolitan hospitals charging substantially higher fees compared to non-metropolitan hospitals. These findings underscore the significant variability in hospital billing practices based on metropolitan status.
 
-The final dataset used in this study was obtained by extracting the information related to DRG-689 Kidney and Urinary Tract Infections for patients with major complication or comorbidity of hospitals in the State of New York from the Inpatient Charge Data FY 2018 and linking this data with the RUCA dataset to obtain the information on the level of rurality about the communities where the NY Hospitals are located. The datasets can be found in cms.gov and ers.usda.gov webpages respectively.
-
-A Welch’s - Satterthwaite t-test was used to test for a difference in the means of the mean covered charges between hospitals located in a metropolitan vs non-metropolitan area.
-
-#### Results: 
-A total of 102 hospitals in the state of New York reported mean covered charges related with Kidney and Urinary Tract Infections for patients with major complication or comorbidity (DRG-689), with 86.27 % located in a metropolitan area and 13.73 % located in a non-metropolitan area.
-
-The mean covered charges related to DRG-689 were 41,299 (95%CI: 36,815 - 45,783) among hospitals located in a metropolitan area, compared to 19,754 (95%CI: 13,029 - 26,478) among hospitals located in a non-metropolitan area. A statistically significant difference of 21,545 (95%CI: 13,683 - 29,407) in the mean covered charges between metropolitan and non-metropolitan hospitals. p<0.0001.
- 
-#### Conclusions and/or Policy Impacts:
-Metropolitan status is associated with wide variations in hospital mean covered charges related to DRG-689, the mean covered charges were higher for metropolitan located hospitals compared to non-metropolitan. These findings suggest that the hospitals charge structures for DRG-689 vary considerably depending on the hospital’s metropolitan status. 
-
+For more detailed findings, refer to the full report in [Insurance_Database_SQL_Report__.pdf](link-to-your-pdf-report).

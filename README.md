@@ -18,4 +18,3 @@ We employed Welch’s - Satterthwaite t-test to assess differences in mean charg
 ## Conclusions
 Metropolitan status significantly influences hospital charges for DRG-689, with metropolitan hospitals charging substantially higher fees compared to non-metropolitan hospitals. These findings underscore the significant variability in hospital billing practices based on metropolitan status.
 
-For more detailed findings, refer to the full report in [Insurance_Database_SQL_Report__.pdf](link-to-your-pdf-report).

@@ -1,5 +1,5 @@
 # Medicare Hospital Charges Analysis for Kidney and Urinary Tract Infections
-*By Gustavo Fernandez, MS*
+*Gustavo Fernandez, MS*
 
 ## Abstract
 **Study Objective:**  

@@ -16,5 +16,5 @@ We employed Welch’s - Satterthwaite t-test to assess differences in mean charg
 - **Mean Charges:** Metropolitan hospitals had mean covered charges of $41,299 (95% CI: $36,815 - $45,783), whereas non-metropolitan hospitals had $19,754 (95% CI: $13,029 - $26,478). This reflects a statistically significant difference of $21,545 (95% CI: $13,683 - $29,407, p < 0.0001).
 
 ## Conclusions
-Metropolitan status significantly influences hospital charges for DRG-689, with metropolitan hospitals charging substantially higher fees compared to non-metropolitan hospitals. These findings underscore the significant variability in hospital billing practices based on metropolitan status.
+Metropolitan hospitals charged significantly higher fees for DRG-689 compared to non-metropolitan hospitals, highlighting substantial variability in billing practices based on location.
 
